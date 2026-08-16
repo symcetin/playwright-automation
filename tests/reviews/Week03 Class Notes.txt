@@ -1,0 +1,33 @@
+Week03
+
+    Topics:
+        Gherkin Syntaxes
+        Playwright Review
+        Extra Perplexity Spaces
+
+
+
+Next Week:
+    During the week days:
+        Jenkins Job Configurations (3 hours videos)
+        Feature files for SEP User stories
+
+    During the live class:
+        GitHub Actions ( .yml )
+        Browser & Context Fixture for UI testing
+
+        prompt templates for getBy methods locators of playwright
+
+        Request & BaseURL Fixture for API Testing:
+            GET Method
+            POST Method
+            PUT Method
+            PATCH Method
+            DELETE Method
+            Serilization & Deserilizations
+
+
+Next Next Week:
+    Project Implementation Week
+    Playwright BDD framework
+
