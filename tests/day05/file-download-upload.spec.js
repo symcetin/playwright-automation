@@ -3,12 +3,12 @@ import path from 'path';
 import fs from 'fs';
 
 test('File downloads', async ({ page }) => {
-    // create event listener for download
+    // create evenet listener for download
     let promisedDownloadEvent = page.waitForEvent("download");
 
     await page.goto("https://the-internet-5chk.onrender.com/download");
 
-    await page.click("text='Links.txt'"); // triggers the download event
+    await page.click("text='Insurance.jpg'"); // triggers the download event
 
     let download = await promisedDownloadEvent;
 

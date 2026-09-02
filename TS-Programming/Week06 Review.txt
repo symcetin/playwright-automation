@@ -1,0 +1,144 @@
+Week06 Review
+	Topics:
+		TypeScript vs JavaScript
+		JS Playwright Frameworks vs TS Playwright Frameworks
+		Test Driven Development (BDD vs TDD)
+		API Testing Continue
+
+		JS & Playwright Interview Questions
+
+		Building Automation Framework from Scratch with Antigravity
+
+
+JavaScript vs TypeScript:
+	
+	JavaScript: 
+		1. Dynamically Typed, allows variables to change types at runtime.
+
+		2. Interpreted language that runs without prior compilation.
+
+		3. Errors are typically caught at runtime.
+
+		4. Less maintainable in large projects (no Type Safety).
+
+		5. Does not support all OOP prinnciples
+
+		6. Access modifiers: no explicit access modifiers, properties are public by default
+
+
+	TypeScript:
+		1. Statically Typed, enabls type checking at compile time, which helps catch errors early.
+
+		2. Compiled language that needs to be compiled into JavaScript before execution.
+
+		3. Errors are caught at compile time (reduces runtime errors and improves code reliability).
+
+		4. Improves maintainability and readability, especially in large codebases (Type Safety).
+
+		5. Supports all OOP prinnciples.
+
+		6. Access modifiers: public, protected, private
+
+
+Interview Questions:
+
+	JavaScript:
+
+		1. Class & Object
+
+		2. Array
+
+		3. let vs var
+
+		4. promises
+
+		5. Async & Await
+
+	Playwright:
+		1. how do you implement retry?
+		2. what is the difference between selenium and playwright?
+		3. How do you capture and validate a downloaded file in Playwright?
+		4. How do you test file uploads using Playwright?
+		5. What if a popup opens in a new tab—how do you handle and test it in Playwright?
+		6. How do you handle list of locators in playwright?
+		
+
+	Disadvantages of selenium:
+		1. Flaky tests
+		2. wait issues (explicit waits)
+		3. scrolling
+		4. after each sprint regression suit is getting larger and execution time is taking longer
+		5. Test passing rate (80%)
+		6. depended on Grid/TestNG/PyTest for parallel execution, and JUnit/TestNG for test runner
+
+	Advantages of playwright:
+		1. no flaky tests
+		2. Auto waiting
+		3. Auto scrolling
+		4. auto switching
+		5. has parallel execution and has test runner6. Global configuration (head/headless, cross browser, video recording, screenshots.)
+
+	Playwright automation framework:
+		TypeScript
+		POM 
+		TDD:
+			pages: for storeing page locators and page actions
+			tests: for storing autoatiom test cases
+			utilities: for our browser utilities & methods
+
+			global config of playwright
+
+
+Singleton: only one instance of page/driver is used throughout the execution of tests
+
+		In my farmework I have created the page/driver as static, and thta's only instance I am using in my entire project.
+
+POM: Creating seperate page classes for each web page of the application.
+
+	In my framework I have pages folder where I create my page classes, 
+	I store page locator and page actions of each web page in the page classes,
+	so that I can use them in my automation tests whenever theya re needed
+
+==============================================
+
+
+Next Week:
+	1. Add the playwright certificate to your linked profile
+
+	2. Add those skills to your linked profile:
+		2.1 JavaScript
+		2.2 TypeScript
+		2.3 NodeJS
+		2.4 Playwright
+		2.5 Jenkins
+		2.6 GitHub Actions
+		2.7 Github copilot
+		2.8 Perplexity
+		2.9 Behavior Driven Development (BDD)
+		2.10 Test Driven Development
+
+	3. Endorse each other
+
+
+	4. Resume:
+
+			Career Highlights:
+				........
+
+			Technological toolbox:
+				programming Languages: Java, JavaScript, TypeScript, HTML, XML.
+
+				automation: Selenium, Junit, Maven, Cucumber BDD... Playwright, NPM, TDD
+
+				CICD & Version control: Jenkins, GitHub Actions, Git & GitHub
+
+				Project Managemnt: Jira
+
+				AI-Powered Utilities: Perplexity AI, GitHub Copilot, Antigravity
+
+
+			Work History:
+				....
+
+			Educatiion & Certificates:
+				...
